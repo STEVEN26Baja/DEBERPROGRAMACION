@@ -1,0 +1,32 @@
+class CuentaBancariaxX
+
+    def _init_(self, numero= None, Nomb_propiet= None, saldo: float = 0):
+        self._numero = numero
+        self._ Nomb_propiet = Nomb_propiet
+        self._saldo = saldo
+    def _str_(self):
+        return f' Cuentas Bancarias: {self._dict.str_() }'
+
+    @property
+    def numero(self):
+        return self._numero
+
+    @numero.setter
+    def numero(self, numero):
+        self._numero = numero
+       
+
+   @property
+    def Nomb_Prop self):
+        return self._ nombre_propietario
+
+    @ nombre_propietario.setter
+    def Nomb_Prop self, Nomb_Prop):
+        self._ Nomb_Prop = Nomb_Prop
+
+    @property
+    def saldo(self):
+        return self._saldo
+
+    @saldo.setter
+    def saldo(self, saldo):
