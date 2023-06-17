@@ -1,9 +1,9 @@
 from cuenta import Cuenta_Bancaria_
 
 class Cuenta_ahorro (Cuenta_Bancaria):
-    def _init_(self, interes: float= 0, numero= None, Nomb_Propietar= None, saldo:float=0):
+    def _init_(self, interes: float= 0, numero= None, Nomb_propiet= None, saldo:float=0):
         self._interes = interes
-        super(Cuenta_ahorro, self)._init_(numero=numero Nomb_Propropietar = Nomb_Propietar, saldo=saldo)
+        super(Cuenta_ahorro, self)._init_(numero=numero Nomb_propiet = Nomb_propiet, saldo=saldo)
 
         @property
         def interes(self):
