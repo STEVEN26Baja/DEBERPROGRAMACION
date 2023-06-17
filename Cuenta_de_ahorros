@@ -2,9 +2,9 @@ from Cuenta import Cuenta Cuenta_Bancaria_
 
 class Cuenta_corriente (Cuenta_Bancaria):
 
-    def _init_(self, numero= None, nombre_propiet= None, saldo:float= 0, tiene_cheque=bool):
+    def _init_(self, numero= None, Nomb_propiet= None, saldo:float= 0, tiene_cheque=bool):
         self._tiene_cheque= tiene_cheque
-        super(Cuenta_corriente, self)._init_(numero=numero, Nomb_Propiet = Nomb_Propiet, saldo=saldo)
+        super(Cuenta_corriente, self)._init_(numero=numero, Nomb_propiet = Nomb_Propiet, saldo=saldo)
 
     @property
     def tiene_cheque(self):
