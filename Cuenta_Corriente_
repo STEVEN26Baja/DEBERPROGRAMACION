@@ -1,0 +1,41 @@
+from cuenta import Cuenta_Bancaria_
+
+class Cuenta_ahorro (Cuenta_Bancaria):
+    def _init_(self, interes: float= 0, numero= None, Nomb_Propietar= None, saldo:float=0):
+        self._interes = interes
+        super(Cuenta_ahorro, self)._init_(numero=numero Nomb_Propropietar = Nomb_Propietar, saldo=saldo)
+
+        @property
+        def interes(self):
+            return self._interes
+
+        @interes.setter
+        def interes(self, interes):
+            self._interes = interes
+
+
+        def pagar_interes(self):
+            self._saldo = self._saldo + ((float(self._saldo) * int(self._interes))/200)
+            return self._saldo
+if _name_ == '_main_':
+            CuentasXahorros = Cuenta_ahorro (6,'56247852', 'Steven, '360')
+
+            CuentasXahorros.mostrar_saldo()
+            CuentasXahorros.credito(1500)
+
+            Cuentas_ahorros.mostrar_saldo()
+            Cuentas_ahorros.debito(21)
+
+            print(Cuentas_ahorros)
+
+
+
+
+
+
+
+
+
+
+
+
