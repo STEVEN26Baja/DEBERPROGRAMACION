@@ -17,12 +17,12 @@ class CuentaBancariaxX
        
 
    @property
-    def Nomb_Prop self):
-        return self._ nombre_propietario
+    def Nomb_propiet self):
+        return self._ Nomb_propiet
 
-    @ nombre_propietario.setter
-    def Nomb_Prop self, Nomb_Prop):
-        self._ Nomb_Prop = Nomb_Prop
+    @ Nomb_propiet.setter
+    def Nomb_propiet self, Nomb_propiet):
+        self._ Nomb_Prop = Nomb_propiet
 
     @property
     def saldo(self):
